@@ -117,6 +117,15 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
+	
+	<distributionManagement>
+		<!-- Snapshot Distribution Management -->
+		<snapshotRepository>
+			<id>my-libs-snapshot-local</id>
+			<name>My Snapshot Repository</name>
+			<!-- JFrog Artifactory URL -->
+		</snapshotRepository>
+	</distributionManagement>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>mulesoft-releases</id>
